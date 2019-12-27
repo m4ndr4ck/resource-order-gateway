@@ -18,3 +18,5 @@ docker build . -t oss/resource-order-gateway:1.0
 ```
 kubectl apply -f k8s/deployment.yaml 
 ```
+
+Acesse por http://services.oss.redecorp/resource-order-gateway/swagger-ui.html
